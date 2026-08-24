@@ -1,0 +1,19 @@
+#EXTM3U url-tvg="https://epg.i.mjh.nz" tvg-logo="https://via.placeholder.com/300x200" cache=3600
+
+#EXTINF:-1 tvg-id="cbc-gem.ca" tvg-name="CBC Gem" tvg-logo="https://gem.cbc.ca/favicon.ico" group-title="Canadian",CBC Gem
+https://gem.cbc.ca/live
+
+#EXTINF:-1 tvg-id="ctv.ca" tvg-name="CTV" tvg-logo="https://www.ctv.ca/favicon.ico" group-title="Canadian",CTV
+https://www.ctv.ca/live
+
+#EXTINF:-1 tvg-id="global-tv.ca" tvg-name="Global TV" tvg-logo="https://www.globaltv.com/favicon.ico" group-title="Canadian",Global TV
+https://www.globaltv.com/live
+
+#EXTINF:-1 tvg-id="citytv.ca" tvg-name="Citytv" tvg-logo="https://www.citytv.com/favicon.ico" group-title="Canadian",Citytv
+https://www.citytv.com/live
+
+#EXTINF:-1 tvg-id="tvo.ca" tvg-name="TVO" tvg-logo="https://www.tvo.org/favicon.ico" group-title="Educational",TVO
+https://www.tvo.org/live
+
+#EXTINF:-1 tvg-id="aptn.ca" tvg-name="APTN" tvg-logo="https://www.aptn.ca/favicon.ico" group-title="Indigenous",APTN
+https://www.aptn.ca/live
