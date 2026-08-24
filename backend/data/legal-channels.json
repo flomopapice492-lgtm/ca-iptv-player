@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cbc-gem",
+    "name": "CBC Gem",
+    "country": "CA",
+    "category": "General",
+    "logo": "https://gem.cbc.ca/favicon.ico",
+    "url": "https://gem.cbc.ca",
+    "streamUrl": "https://gem.cbc.ca/live",
+    "description": "Official CBC streaming service with news, drama, comedy and documentaries",
+    "license": "CRTC-approved",
+    "verified": true,
+    "tags": ["news", "drama", "documentary", "comedy"]
+  },
+  {
+    "id": "ctv-ca",
+    "name": "CTV",
+    "country": "CA",
+    "category": "General",
+    "logo": "https://www.ctv.ca/favicon.ico",
+    "url": "https://www.ctv.ca",
+    "streamUrl": "https://www.ctv.ca/live",
+    "description": "CTV live streaming with news, sports and entertainment",
+    "license": "CRTC-approved",
+    "verified": true,
+    "tags": ["news", "sports", "entertainment"]
+  },
+  {
+    "id": "global-tv",
+    "name": "Global TV",
+    "country": "CA",
+    "category": "General",
+    "logo": "https://www.globaltv.com/favicon.ico",
+    "url": "https://www.globaltv.com",
+    "streamUrl": "https://www.globaltv.com/live",
+    "description": "Global TV live streaming with news and entertainment programming",
+    "license": "CRTC-approved",
+    "verified": true,
+    "tags": ["news", "entertainment", "drama"]
+  },
+  {
+    "id": "citytv",
+    "name": "Citytv",
+    "country": "CA",
+    "category": "General",
+    "logo": "https://www.citytv.com/favicon.ico",
+    "url": "https://www.citytv.com",
+    "streamUrl": "https://www.citytv.com/live",
+    "description": "Citytv live streaming with news and entertainment",
+    "license": "CRTC-approved",
+    "verified": true,
+    "tags": ["news", "entertainment"]
+  },
+  {
+    "id": "tvo",
+    "name": "TVO",
+    "country": "CA",
+    "category": "Educational",
+    "logo": "https://www.tvo.org/favicon.ico",
+    "url": "https://www.tvo.org",
+    "streamUrl": "https://www.tvo.org/live",
+    "description": "TVO educational broadcasting and documentaries",
+    "license": "CRTC-approved",
+    "verified": true,
+    "tags": ["educational", "documentary", "learning"]
+  },
+  {
+    "id": "aptn",
+    "name": "APTN",
+    "country": "CA",
+    "category": "Indigenous",
+    "logo": "https://www.aptn.ca/favicon.ico",
+    "url": "https://www.aptn.ca",
+    "streamUrl": "https://www.aptn.ca/live",
+    "description": "APTN indigenous media and cultural programming",
+    "license": "CRTC-approved",
+    "verified": true,
+    "tags": ["indigenous", "cultural", "news"]
+  }
+]
