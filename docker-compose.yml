@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ca-iptv-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - FRONTEND_URL=http://localhost:3000
+    volumes:
+      - ./backend:/app
+      - ./epg-data:/app/epg-data
+    networks:
+      - iptv-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ca-iptv-frontend
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+    depends_on:
+      - backend
+    networks:
+      - iptv-network
+    restart: unless-stopped
+
+networks:
+  iptv-network:
+    driver: bridge
+
+volumes:
+  epg-cache:
+    driver: local
